@@ -70,7 +70,7 @@ if __name__ == '__main__':
     df.columns = ['index', 'name', 'url']
 
     try:
-        _df = pd.read_csv('coursera-data-full.csv')
+        _df = pd.read_csv('coursera-couse-detail-data.csv')
         isEx = True
     except:
         isEx = False
@@ -89,7 +89,7 @@ if __name__ == '__main__':
 
         for i in choke:
             try:
-                _df = pd.read_csv('coursera-data-full_.csv')
+                _df = pd.read_csv('coursera-couse-detail-data.csv')
                 isEx = True
             except:
                 isEx = False
@@ -113,9 +113,9 @@ if __name__ == '__main__':
 
             print(_data_dict)
             if(isEx):
-                pd.DataFrame(data=_data_dict).to_csv('coursera-data-full_.csv', mode='a', header=False)
+                pd.DataFrame(data=_data_dict).to_csv('coursera-couse-detail-data.csv', mode='a', header=False)
             else:
-                pd.DataFrame(data=_data_dict).to_csv('coursera-data-full_.csv')
+                pd.DataFrame(data=_data_dict).to_csv('coursera-couse-detail-data.csv')
     else:
         print('done')
         time.sleep(2)
