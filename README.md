@@ -1,5 +1,4 @@
 # Coursera-Web-Scraper
----
 ## Steps to run:-
 <ol>
   <li>Make sure PhantomJs is copied into the dependency folder. (You can also use a browser of your choice. More details <a href="https://towardsdatascience.com/web-scraping-using-selenium-python-8a60f4cf40ab">here</a>)</li>
