@@ -1,5 +1,16 @@
 # Coursera-Web-Scraper
-## Steps to run:-
+![](https://img.shields.io/github/issues-closed/mihirs16/Coursera-Web-Scraper?color=green&style=for-the-badge)
+![](https://img.shields.io/github/forks/mihirs16/Coursera-Web-Scraper?style=for-the-badge)
+![](https://img.shields.io/github/stars/mihirs16/Coursera-Web-Scraper?color=54A5B4&style=for-the-badge)
+## Prerequisites
+* Python (tested for 3.7 and above)
+* [PhantomJs](https://phantomjs.org/) or any other headless browser for automation.
+* [Selenium](https://selenium-python.readthedocs.io/) Web Driver for Python
+* Other Libraries:
+  * Pandas
+  * Mutliprocessing
+
+## Instructions
 <ol>
   <li>Make sure PhantomJs is copied into the dependency folder. (You can also use a browser of your choice. More details <a href="https://towardsdatascience.com/web-scraping-using-selenium-python-8a60f4cf40ab">here</a>)</li>
   <li>Run coursera_scraper.py to scrape and save the list of coursera courses and their URLs mentioned in the <a href="https://www.coursera.org/directory/courses">Coursera Directory</a>.</li>
