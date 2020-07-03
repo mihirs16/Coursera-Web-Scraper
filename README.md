@@ -1,7 +1,7 @@
 # Coursera-Web-Scraper
 ![](https://img.shields.io/github/forks/mihirs16/Coursera-Web-Scraper?style=for-the-badge)
-![](https://img.shields.io/github/stars/mihirs16/Coursera-Web-Scraper?color=54A5B4&style=for-the-badge)
 ![](https://img.shields.io/github/issues-closed/mihirs16/Coursera-Web-Scraper?color=green&style=for-the-badge)
+![](https://img.shields.io/github/stars/mihirs16/Coursera-Web-Scraper?color=54A5B4&style=for-the-badge)
 ## Prerequisites
 * Python (tested for 3.7 and above)
 * [PhantomJs](https://phantomjs.org/) or any other headless browser for automation.
